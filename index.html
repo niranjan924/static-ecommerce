@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LUMEN — Modern Essentials</title>
+    <meta name="description" content="LUMEN — curated clothing, accessories, and home goods designed for everyday living." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <meta property="og:image" content="https://bolt.new/static/og_default.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://bolt.new/static/og_default.png">
+</head>
+  <body>
+    <!-- Announcement -->
+    <div class="announcement">Free shipping on all orders over $75 — Shop the new autumn collection</div>
+
+    <!-- Header -->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+    <header class="header">
+      <div class="header-inner">
+        <label for="menu-toggle" class="menu-toggle-label" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </label>
+        <a href="/" class="logo">LU<span>M</span>EN</a>
+        <nav class="nav">
+          <ul class="nav-links">
+            <li><a href="/" class="active">Home</a></li>
+            <li><a href="/shop.html">Shop</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+          <div class="nav-icons">
+            <a href="#" aria-label="Search">
+              <svg class="icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+            </a>
+            <a href="#" aria-label="Account">
+              <svg class="icon" viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            </a>
+            <a href="#" class="cart-count" aria-label="Cart">
+              <svg class="icon" viewBox="0 0 24 24"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+            </a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-bg">
+        <img src="https://images.pexels.com/photos/896291/pexels-photo-896291.jpeg?auto=compress&cs=tinysrgb&h=900&w=1600" alt="Fashion models in autumn wear" />
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <span class="eyebrow" style="color: var(--c-secondary);">Autumn / Winter 2026</span>
+        <h1>Elevated Essentials<br />for Modern Living</h1>
+        <p>Thoughtfully designed clothing, accessories, and home goods — made to last, built for everyday.</p>
+        <div class="hero-actions">
+          <a href="/shop.html" class="btn btn-light">Shop Collection</a>
+          <a href="/about.html" class="btn btn-light" style="background:transparent;border-color:rgba(255,255,255,0.4);color:var(--c-white);">Our Story</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Strip -->
+    <div class="container">
+      <div class="features">
+        <div class="feature-item">
+          <svg class="icon" viewBox="0 0 24 24"><rect x="1" y="3" width="15" height="13" rx="1"/><path d="m16 8 4 3-4 3"/><path d="M5 21h7"/></svg>
+          <div><h4>Free Shipping</h4><p>On orders over $75</p></div>
+        </div>
+        <div class="feature-item">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 18 0 9 9 0 0 0-18 0Z"/><path d="m9 12 2 2 4-4"/></svg>
+          <div><h4>30-Day Returns</h4><p>No questions asked</p></div>
+        </div>
+        <div class="feature-item">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/></svg>
+          <div><h4>Secure Payment</h4><p>Encrypted checkout</p></div>
+        </div>
+        <div class="feature-item">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-10 10 10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2Z"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+          <div><h4>24/7 Support</h4><p>Always here to help</p></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Categories -->
+    <section class="section container">
+      <div class="section-header">
+        <span class="eyebrow">Browse</span>
+        <h2>Shop by Category</h2>
+        <p>Find exactly what you're looking for</p>
+      </div>
+      <div class="category-grid">
+        <a href="/shop.html" class="category-card">
+          <img src="https://images.pexels.com/photos/7671167/pexels-photo-7671167.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Clothing category" />
+          <div class="category-card__overlay">
+            <div>
+              <h3>Clothing</h3>
+              <span>42 items</span>
+            </div>
+          </div>
+        </a>
+        <a href="/shop.html" class="category-card">
+          <img src="https://images.pexels.com/photos/9011182/pexels-photo-9011182.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Accessories category" />
+          <div class="category-card__overlay">
+            <div>
+              <h3>Accessories</h3>
+              <span>28 items</span>
+            </div>
+          </div>
+        </a>
+        <a href="/shop.html" class="category-card">
+          <img src="https://images.pexels.com/photos/6707631/pexels-photo-6707631.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Home goods category" />
+          <div class="category-card__overlay">
+            <div>
+              <h3>Home</h3>
+              <span>36 items</span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="section bg-light">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Curated Picks</span>
+          <h2>Featured Products</h2>
+          <p>Our most loved pieces this season</p>
+        </div>
+        <div class="product-grid">
+          <a href="/product.html" class="product-card">
+            <div class="product-card__image">
+              <img src="https://images.pexels.com/photos/9594692/pexels-photo-9594692.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Organic Cotton Tee" />
+              <span class="product-card__badge new">New</span>
+              <div class="product-card__quick"><span class="btn btn-primary">Quick View</span></div>
+            </div>
+            <span class="product-card__category">Clothing</span>
+            <span class="product-card__name">Organic Cotton Tee</span>
+            <span class="product-card__price">$38</span>
+          </a>
+          <a href="/product.html" class="product-card">
+            <div class="product-card__image">
+              <img src="https://images.pexels.com/photos/9011182/pexels-photo-9011182.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Heritage Leather Watch" />
+              <span class="product-card__badge sale">Sale</span>
+              <div class="product-card__quick"><span class="btn btn-primary">Quick View</span></div>
+            </div>
+            <span class="product-card__category">Accessories</span>
+            <span class="product-card__name">Heritage Leather Watch</span>
+            <span class="product-card__price">$145 <del>$189</del></span>
+          </a>
+          <a href="/product.html" class="product-card">
+            <div class="product-card__image">
+              <img src="https://images.pexels.com/photos/1456733/pexels-photo-1456733.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Everyday Sneakers" />
+              <div class="product-card__quick"><span class="btn btn-primary">Quick View</span></div>
+            </div>
+            <span class="product-card__category">Footwear</span>
+            <span class="product-card__name">Everyday Sneakers</span>
+            <span class="product-card__price">$72</span>
+          </a>
+          <a href="/product.html" class="product-card">
+            <div class="product-card__image">
+              <img src="https://images.pexels.com/photos/973505/pexels-photo-973505.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Arc Pendant Light" />
+              <span class="product-card__badge new">New</span>
+              <div class="product-card__quick"><span class="btn btn-primary">Quick View</span></div>
+            </div>
+            <span class="product-card__category">Home</span>
+            <span class="product-card__name">Arc Pendant Light</span>
+            <span class="product-card__price">$118</span>
+          </a>
+        </div>
+        <div style="text-align:center;margin-top:var(--sp-5);">
+          <a href="/shop.html" class="btn btn-outline">View All Products</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Editorial Banner -->
+    <section class="section" style="padding:0;">
+      <div style="position:relative;height:480px;overflow:hidden;">
+        <img src="https://images.pexels.com/photos/13447772/pexels-photo-13447772.jpeg?auto=compress&cs=tinysrgb&h=900&w=1600" alt="Autumn lifestyle" style="width:100%;height:100%;object-fit:cover;" />
+        <div style="position:absolute;inset:0;background:linear-gradient(to right,rgba(15,15,26,0.6) 0%,transparent 70%);"></div>
+        <div style="position:absolute;left:0;top:50%;transform:translateY(-50%);padding:0 var(--sp-5);max-width:500px;">
+          <span class="eyebrow" style="color:var(--c-secondary);">Crafted with Care</span>
+          <h2 style="font-size:2.2rem;color:var(--c-white);margin-bottom:var(--sp-2);">Sustainable by Design</h2>
+          <p style="color:rgba(255,255,255,0.85);margin-bottom:var(--sp-3);">Every piece is made from responsibly sourced materials, in factories that put people first. No shortcuts, no compromises.</p>
+          <a href="/about.html" class="btn btn-light">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section bg-light">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Reviews</span>
+          <h2>What Our Customers Say</h2>
+        </div>
+        <div class="testimonials">
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <blockquote>"The quality is exceptional. I've worn the cotton tee every week for months and it still looks brand new."</blockquote>
+            <cite>Sarah M. <span>Verified Buyer</span></cite>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <blockquote>"Beautiful packaging, fast delivery, and the pendant light looks stunning in my living room. Highly recommend."</blockquote>
+            <cite>James L. <span>Verified Buyer</span></cite>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <blockquote>"LUMEN has become my go-to for gifts. The attention to detail and sustainability ethos really sets them apart."</blockquote>
+            <cite>Elena R. <span>Verified Buyer</span></cite>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+      <div class="container-narrow">
+        <h2>Join the List</h2>
+        <p>Get 10% off your first order plus early access to new collections</p>
+        <form class="newsletter-form" action="/contact.html">
+          <input type="email" name="email" placeholder="Enter your email" required />
+          <button type="submit" class="btn btn-light">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <div class="logo">LU<span>M</span>EN</div>
+            <p>Modern essentials for everyday living. Thoughtfully designed, responsibly made, built to last.</p>
+            <div class="footer-social">
+              <a href="#" aria-label="Instagram"><svg class="icon" viewBox="0 0 24 24" style="width:16px;height:16px;"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg></a>
+              <a href="#" aria-label="Twitter"><svg class="icon" viewBox="0 0 24 24" style="width:16px;height:16px;"><path d="M4 4l16 16"/><path d="M20 4 4 20"/></svg></a>
+              <a href="#" aria-label="Facebook"><svg class="icon" viewBox="0 0 24 24" style="width:16px;height:16px;"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3Z"/></svg></a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Shop</h4>
+            <ul>
+              <li><a href="/shop.html">All Products</a></li>
+              <li><a href="/shop.html">Clothing</a></li>
+              <li><a href="/shop.html">Accessories</a></li>
+              <li><a href="/shop.html">Home</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="/about.html">About Us</a></li>
+              <li><a href="/contact.html">Contact</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Sustainability</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Help</h4>
+            <ul>
+              <li><a href="#">Shipping Info</a></li>
+              <li><a href="#">Returns &amp; Exchanges</a></li>
+              <li><a href="#">Size Guide</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>&copy; 2026 LUMEN. All rights reserved.</span>
+          <span><a href="#">Privacy Policy</a> &middot; <a href="#">Terms of Service</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
